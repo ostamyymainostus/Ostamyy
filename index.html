@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ostamyy</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4; color:#333; line-height:1.6; }
+    header { background:#003366; color:white; padding:20px 0; text-align:center; }
+    header h1 { margin:0; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    section { padding:40px 20px; max-width:900px; margin:auto; background:white; margin-bottom:20px; border-radius:8px; }
+    footer { background:#222; color:white; text-align:center; padding:20px; font-size:0.9em; }
+    h1,h2,h3 { margin-top:0; }
+    .btn { display:inline-block; padding:10px 20px; background:#003366; color:white; text-decoration:none; border-radius:4px; margin-top:10px; }
+    ul { padding-left:20px; }
+    li { margin-bottom:10px; }
+    form input, form textarea { width:100%; padding:10px; margin-bottom:10px; border-radius:4px; border:1px solid #ccc; }
+    form button { background:#003366; color:white; border:none; padding:10px 20px; border-radius:4px; cursor:pointer; }
+    img { max-width:100%; height:auto; border-radius:8px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ostamyy</h1>
+  <p>Me hoidamme yrityksesi verkkosivun sekä mainonnan</p>
+  <nav>
+    <a href="#etusivu">Etusivu</a>
+    <a href="#palvelut">Palvelut</a>
+    <a href="#yhteystiedot">Yhteystiedot</a>
+  </nav>
+</header>
+
+<section id="etusivu">
+  <h2>Tervetuloa Ostamyyhin!</h2>
+  <p>Autamme sinua saamaan yrityksesi näkyville netissä ja somessa. Valitse sopiva paketti ja aloita näkyminen heti!</p>
+  <img src="https://source.unsplash.com/900x300/?marketing,business" alt="Mainoskuva">
+  <a href="#yhteystiedot" class="btn">Ota yhteyttä</a>
+</section>
+
+<section id="palvelut">
+  <h2>Palvelumme</h2>
+
+  <h3>Verkkosivu</h3>
+  <p>190€</p>
+
+  <h3>Peruspaketti</h3>
+  <p>39,90€/vko</p>
+  <ul>
+    <li>Snapchat story</li>
+    <li>Discord mainos</li>
+    <li>Yksi jako viikon aikana</li>
+  </ul>
+
+  <h3>Tehopaketti</h3>
+  <p>59,90€/vko</p>
+  <ul>
+    <li>2x Snapchat story</li>
+    <li>2x Discord mainos</li>
+    <li>Kaksi jakoa viikossa</li>
+  </ul>
+
+  <h3>Kuukausipaketti</h3>
+  <p>139€/kk</p>
+  <ul>
+    <li>Peruspaketin sisältö</li>
+    <li>Edullisempi hinta per viikko</li>
+  </ul>
+</section>
+
+<section id="yhteystiedot">
+  <h2>Ota yhteyttä</h2>
+  <p>Puhelin: +358417216027</p>
+  <p>Sähköposti: ostamyy.mainostus@gmail.com</p>
+
+  <form action="mailto:ostamyy.mainostus@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="Nimi" placeholder="Nimesi" required>
+    <input type="email" name="Sahkoposti" placeholder="Sähköpostisi" required>
+    <textarea name="Viesti" placeholder="Kirjoita viesti..." rows="5" required></textarea>
+    <button type="submit">Lähetä</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2026 Ostamyy</p>
+</footer>
+
+</body>
+</html>
